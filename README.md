@@ -1,5 +1,4 @@
-# airflow-weather-pipeline
-#E2E Weather Data Pipeline with Airflow, Spark, and Snowflake
+# E2E Weather Data Pipeline with Airflow, Spark, and Snowflake
 
 This repository contains the infrastructure and code for an End-to-End (E2E) Data Pipeline designed to process raw weather data from AWS S3 and load the cleaned, transformed results into a Snowflake Data Warehouse.
 
