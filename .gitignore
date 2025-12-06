@@ -1,0 +1,30 @@
+# .gitignore
+
+# Airflow/Docker
+.airflow
+.env
+__pycache__/
+*.pyc
+
+# Docker Files
+*.pem
+*.key
+*.cer
+*.crt
+.docker
+*.DS_Store
+*.swp
+*.swo
+
+# Minified files/Folders created by Docker
+.mypy_cache/
+.pytest_cache/
+*.mypy.ini
+.venv/
+
+# Logs and Data
+logs/*
+data/*
+postgres-data/
+
+
